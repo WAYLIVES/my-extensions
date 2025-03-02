@@ -141,9 +141,9 @@
         getInfo() {
             return {
                 "id": "extensionID",
-                "name": "<SVG/>",
-                "color1": "#0088ff",
-                "color2": "#0063ba",
+                "name": "SVG",
+                "color1": "#9823FF",
+                "color2": "#7C2DC1",
                 "tbShow": true,
                 "blocks": blocks,
                 "menus": menus
