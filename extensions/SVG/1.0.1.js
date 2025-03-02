@@ -4,7 +4,7 @@
 // By: WAYLIVES
 // License: MIT
 
-// Version V.1.0.1
+// Version: 1.0.1
 
 (async function(Scratch) {
     const variables = {};
