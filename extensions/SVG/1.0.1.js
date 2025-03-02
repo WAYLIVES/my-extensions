@@ -153,7 +153,7 @@
     blocks.push({
         opcode: "svg",
         blockType: Scratch.BlockType.REPORTER,
-        text: "SVG-frame  //  width: [WIDTH] height: [HEIGHT] elements in svg: [ELEMENTS]",
+        text: Scratch.translate("SVG-frame  //  width: [WIDTH] height: [HEIGHT] elements in svg: [ELEMENTS]"),
         arguments: {
             "WIDTH": {
                 type: Scratch.ArgumentType.NUMBER,
@@ -180,7 +180,7 @@
     blocks.push({
         opcode: "line",
         blockType: Scratch.BlockType.REPORTER,
-        text: "LINE  //  x1, y1: [XA][YA] x2, y2: [XB][YB] width: [WIDTH] color: [COLOR] opacity: [OPACITY]% dash, gap: [DASH][GAP] linecap: [LINECAP]",
+        text: Scratch.translate("LINE  //  x1, y1: [XA][YA] x2, y2: [XB][YB] width: [WIDTH] color: [COLOR] opacity: [OPACITY]% dash, gap: [DASH][GAP] linecap: [LINECAP]"),
         arguments: {
             "XA": {
                 type: Scratch.ArgumentType.NUMBER,
@@ -233,7 +233,7 @@
     blocks.push({
         opcode: "rect",
         blockType: Scratch.BlockType.REPORTER,
-        text: "RECT  //  x, y: [X][Y] width: [WIDTH] height: [HEIGHT] radius: [RADIUS] fill color: [FILLCOLOR] fill opacity: [FILLOPACITY]% stroke width: [STROKEWIDTH] stroke color: [STROKECOLOR] stroke opacity: [STROKEOPACITY]% dash, gap: [DASH][GAP] stroke linecap: [LINECAP]",
+        text: Scratch.translate("RECT  //  x, y: [X][Y] width: [WIDTH] height: [HEIGHT] radius: [RADIUS] fill color: [FILLCOLOR] fill opacity: [FILLOPACITY]% stroke width: [STROKEWIDTH] stroke color: [STROKECOLOR] stroke opacity: [STROKEOPACITY]% dash, gap: [DASH][GAP] stroke linecap: [LINECAP]"),
         arguments: {
             "X": {
                 type: Scratch.ArgumentType.NUMBER,
@@ -298,7 +298,7 @@
     blocks.push({
         opcode: "ellipse",
         blockType: Scratch.BlockType.REPORTER,
-        text: "ELLIPSE  //  cx, cy: [CX][CY] width: [WIDTH] height: [HEIGHT] fill color: [FILLCOLOR] fill opacity: [FILLOPACITY]% stroke width: [STROKEWIDTH] stroke color: [STROKECOLOR] stroke opacity: [STROKEOPACITY]% dash, gap: [DASH][GAP] stroke linecap: [LINECAP]",
+        text: Scratch.translate("ELLIPSE  //  cx, cy: [CX][CY] width: [WIDTH] height: [HEIGHT] fill color: [FILLCOLOR] fill opacity: [FILLOPACITY]% stroke width: [STROKEWIDTH] stroke color: [STROKECOLOR] stroke opacity: [STROKEOPACITY]% dash, gap: [DASH][GAP] stroke linecap: [LINECAP]"),
         arguments: {
             "CX": {
                 type: Scratch.ArgumentType.NUMBER,
@@ -361,7 +361,7 @@
     blocks.push({
         opcode: "svgWidth",
         blockType: Scratch.BlockType.REPORTER,
-        text: "svg width",
+        text: Scratch.translate("svg width"),
         arguments: {},
         disableMonitor: true,
         isEdgeActivated: false
@@ -373,7 +373,7 @@
     blocks.push({
         opcode: "svgHeight",
         blockType: Scratch.BlockType.REPORTER,
-        text: "svg height",
+        text: Scratch.translate("svg height"),
         arguments: {},
         disableMonitor: true,
         isEdgeActivated: false
